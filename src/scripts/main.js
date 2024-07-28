@@ -5,7 +5,7 @@ const timestampdoevento = datadoevento.getTime();
 
 const contaashoras = setInterval(function()  {
     const agora = new Date();
-    const timestampdoevento = agora.getTime();
+    const timestampatual = agora.getTime();
 
     const distanciaateoevento = timestampdoevento - timestampatual;
 
